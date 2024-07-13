@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя первая форма</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2>Моя первая форма</h2>
+    <form action="#" class="myForm">
+        <label>
+            Имя:
+            <input type="text" name="userName" placeholder="Введите свое имя">
+        </label>
+        <label for="">
+            Возраст
+            <input type="number" name="age">
+        </label>
+
+        <label for="">
+            Выберите страну
+            <select name="country" id="">
+                <option value="Ru">Russia</option>
+                <option value="Uz">Uzbekistan</option>
+                <option value="US">USA</option>
+            </select>
+        </label>
+        <span>Выберите свой пол</span>
+        <label for="">
+            <input type="radio" name="gender" value="male">
+            М
+        </label>
+        <label for="">
+            <input type="radio" name="gender" value="female">
+            Ж
+        </label>
+        <input type="submit">
+    </form>\
+
+
+    <div class="calc">
+        <h2>Калькулятор</h2>
+        <label for="">
+            Значение Х =
+            <input type="text" name="x">
+        </label>
+        <label for="">
+            Значение Y
+            <input type="text" name="y">
+        </label>
+        <button onclick="div()">*</button>
+        <div id="result">Результат:</div>
+    </div>
+
+    <script src="./script.js"></script>
+
+
+
+
+
+
+</body>
+</html>
